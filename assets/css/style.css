@@ -1,0 +1,259 @@
+.root {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.15fr 1fr;
+  font-family: "myFont";
+  background: linear-gradient(225deg, #100303 17%, #95389e 79%) no-repeat;
+}
+
+@font-face {
+  font-family: "myFont";
+  src: url(../font/Pasajero.otf);
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(225deg, #100303 17%, #95389e 79%) no-repeat;
+  height: 100vh;
+}
+
+.barre > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.barre > ul {
+  list-style-type: none;
+}
+
+.barre > ul a {
+  text-decoration: none;
+  color: #f7f7f7;
+  transition: all 0.1s;
+}
+
+.barre > ul li:hover {
+  transform: scale(1.4);
+}
+
+.barre > ul a:hover {
+  color: #95389e;
+}
+
+.barre {
+  background-color: #100303;
+}
+
+.barre > ul li {
+  margin: 0px 60px 0px 60px;
+  padding: 0px 10px 0px 10px;
+}
+
+.me {
+  color: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.me img {
+  width: 30rem;
+  margin: 0px 175px -50px 0px;
+}
+
+.greeting {
+  font-size: 35px;
+  font-weight: 500;
+  margin: 0px 0px 10px 30px;
+}
+
+.nom {
+  font-weight: 500;
+  font-size: 45px;
+  margin: 10px 0px 10px 30px;
+}
+
+.metier {
+  font-size: 25px;
+  margin: 10px 0px 10px 30px;
+  color: #43d8c9;
+}
+
+.speech {
+  font-size: 15px;
+  margin: 10px 0px 0px 30px;
+  width: 600px;
+}
+
+.FORMATION {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FORMATION img {
+  width: 20rem;
+  margin: 0px 300px 0px 0px;
+}
+
+.formation {
+  font-size: 50px;
+  font-weight: 500;
+  color: #f7f7f7;
+  margin: 0px 0px 0px 200px;
+}
+
+.titre1 {
+  font-size: 20px;
+  color: #43d8c9;
+  margin: 0px 0px 0px 200px;
+}
+
+.titre2 {
+  font-size: 20px;
+  color: #43d8c9;
+  margin: 0px 0px 0px 200px;
+}
+
+.EXPERIENCE {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.EXPERIENCE img {
+  width: 12rem;
+  margin: 0px 0px 0px 300px;
+}
+
+.experience {
+  font-size: 50px;
+  font-weight: 500;
+  color: #f7f7f7;
+  margin: 0px 350px 0px 0px;
+}
+
+.titre3 {
+  font-size: 20px;
+  color: #43d8c9;
+}
+
+.titre4 {
+  font-size: 20px;
+  color: #43d8c9;
+}
+
+.titre5 {
+  font-size: 20px;
+  color: #43d8c9;
+}
+
+.COMPETENCE {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.COMPETENCE img {
+  width: 15rem;
+  margin: 40px 350px 0px 0px;
+}
+
+.competence {
+  font-size: 50px;
+  font-weight: 500;
+  color: #f7f7f7;
+  margin: 40px 0px 0px 200px;
+}
+
+.titre6 {
+  font-size: 20px;
+  color: #43d8c9;
+  margin: 0px 0px 0px 200px;
+}
+
+.titre7 {
+  font-size: 20px;
+  color: #43d8c9;
+  margin: 0px 0px 0px 200px;
+}
+
+.titre8 {
+  font-size: 20px;
+  color: #43d8c9;
+  margin: 0px 0px 0px 200px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email i {
+  color: #43d8c9;
+  font-size: 30px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #f7f7f7;
+}
+
+.numero {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #f7f7f7;
+}
+
+.ld i {
+  color: #43d8c9;
+  font-size: 30px;
+  margin: 0px 5px 50px 190px;
+}
+
+.ld :hover {
+  color: #f7f7f7;
+}
+
+.fb i {
+  color: #43d8c9;
+  font-size: 30px;
+  margin: 0px 110px 50px 50px;
+}
+
+.fb :hover {
+  color: #f7f7f7;
+}
+
+.numero i {
+  color: #43d8c9;
+  font-size: 30px;
+}
+
+.lien {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nuem {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 0px 0px 50px;
+}
+
+.email {
+  margin: 20px 0px 0px 0px;
+}
+
+.contact {
+  margin: 150px 250px 300px 500px;
+}
